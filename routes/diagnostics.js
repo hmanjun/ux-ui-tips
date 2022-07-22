@@ -10,7 +10,7 @@ diagnostics.get('/', (req, res) => {
   })
 });
 
-// POST Route for a error logging
+// POST Route for a error loggingdwdw
 diagnostics.post('/', (req, res) => {
   // TODO: Logic for appending data to the db/diagnostics.json file
   const {user, tip,topic} = req.body.errors
